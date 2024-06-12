@@ -1,0 +1,24 @@
+{
+  "name": "bunny-game",
+  "version": "1.0.0",
+  "main": "bunny-run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "rollup -c -w",
+    "runServer": "python -m http.server -d public/"
+  },
+  "author": "sophia",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.18.0",
+    "tslib": "^2.6.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "pixi.js": "^7.4.2"
+  }
+}
